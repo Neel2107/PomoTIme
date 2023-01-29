@@ -1,0 +1,157 @@
+html{
+    background-color: #363841;
+}
+
+* {
+    padding: 0%;
+    margin: 0%;
+    text-decoration: none;
+    font-family: 'Saira', sans-serif;
+
+}
+
+.navbar {
+    color: white;
+    padding: 1rem;
+    background-color: #363841;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-bottom: 1px solid #42454e;
+    margin-bottom: 2rem;
+}
+
+.right-buttons {
+    padding: 0.5rem;
+
+}
+
+.buttons {
+    font-size: 1.5rem;
+    color: whitesmoke;
+}
+
+
+.main {
+    align-self: center;
+    width: 40rem;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 6px;
+
+}
+
+.main-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 1.5rem;
+
+
+}
+
+.main-tags {
+    font-size: 1.5rem;
+    color: rgb(255, 255, 255);
+}
+
+.timer {
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 7rem;
+}
+
+
+.start {
+    display: flex;
+    justify-content: center;
+}
+
+.start-button {
+
+    font-size: 2rem;
+    padding: 0rem 2rem;
+    border-radius: 0.5rem;
+    color: white;
+    background-color: #4d505c;
+    margin-bottom: 1rem;
+    border-color: white;
+    margin-right: 1rem;
+}
+.reset-button{
+    font-size: 2rem;
+    padding: 0rem 2rem;
+    border-radius: 0.5rem;
+    color: white;
+    background-color: #4d505c;
+    margin-bottom: 1rem;
+    border-color: white;
+}
+
+
+.start-button:hover {
+    background-color: #2e2e2e;
+}
+.reset-button:hover {
+    background-color: #2e2e2e;
+}
+
+.todo {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.todo-title {
+    margin-top: 0.5rem;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.todo-input {
+    font-size: 20px;
+    color: white;
+    min-width: 30rem;
+    border: 0;
+    background-color: transparent;
+    border-bottom: 1px solid grey;
+}
+
+.todo-input:focus,
+.todo-input:active {
+    background-color: transparent;
+    outline: none;
+}
+
+.todo-input::placeholder {
+    color: white;
+    text-align: left;
+    font-size: 20px;
+}
+
+.tasks {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 40rem;
+}
+
+.add-btn {
+    font-size: 20px;
+    color: white;
+    background-color: rgb(49, 49, 49);
+    border: 0;
+    padding:0px 10px;
+    border-radius: 10px;
+}
+
+.both-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+
+}
