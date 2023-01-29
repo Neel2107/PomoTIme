@@ -10,7 +10,7 @@ export const Navbar = () => {
 
       <div>
         <a className="right-buttons buttons" href="#">
-          Setting
+          Settings
         </a>
 
         <a className="right-buttons buttons" href="#">
