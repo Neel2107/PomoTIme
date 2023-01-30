@@ -37,7 +37,7 @@ html{
     width: 40rem;
     margin: auto;
     background-color: rgba(255, 255, 255, 0.1);
-    border-radius: 6px;
+    border-radius: 6px;  
 
 }
 
@@ -78,6 +78,7 @@ html{
     margin-bottom: 1.5rem;
     border-color: white;
     margin-right: 1rem;
+    
 }
 .reset-button{
     font-size: 2rem;
@@ -155,3 +156,136 @@ html{
 
 
 }
+
+
+
+/* ////////////////////////// Changes in Button CSS ////////////////////////////////////// */
+
+
+
+
+.start-button {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background: #4d505c;
+    font-family: "Montserrat", sans-serif;
+    box-shadow: 0px 6px 24px 0px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    border: none;
+    font-size: 1rem;
+   }
+   
+   .start-button:after {
+    content: " ";
+    width: 0%;
+    height: 100%;
+    background: #1DBC60;
+    position: absolute;
+    transition: all 0.4s ease-in-out;
+    right: 0;
+   }
+   
+   .start-button:hover::after {
+    right: auto;
+    left: 0;
+    width: 100%;
+   }
+   
+   .start-button span {
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+    padding: 18px 2px;
+    color: #fff;
+    font-size: 1.125em;
+    font-weight: 700;
+    letter-spacing: 0.3em;
+    z-index: 20;
+    transition: all 0.3s ease-in-out;
+   }
+   
+   .start-button:hover span {
+    color: white;
+    animation: scaleUp 0.3s ease-in-out;
+   }
+   
+   @keyframes scaleUp {
+    0% {
+     transform: scale(1);
+    }
+   
+    50% {
+     transform: scale(0.95);
+    }
+   
+    100% {
+     transform: scale(1);
+    }
+   }
+   
+
+.reset-button {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background: #4d505c;
+    font-family: "Montserrat", sans-serif;
+    box-shadow: 0px 6px 24px 0px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    border: none;
+    font-size: 1rem;
+   }
+   
+   .reset-button:after {
+    content: " ";
+    width: 0%;
+    height: 100%;
+    background: #e02424;
+    position: absolute;
+    transition: all 0.4s ease-in-out;
+    right: 0;
+   }
+   
+   .reset-button:hover::after {
+    right: auto;
+    left: 0;
+    width: 100%;
+   }
+   
+   .reset-button span {
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+    padding: 18px 2px;
+    color: #fff;
+    font-size: 1.125em;
+    font-weight: 700;
+    letter-spacing: 0.3em;
+    z-index: 20;
+    transition: all 0.3s ease-in-out;
+   }
+   
+   .reset-button:hover span {
+    color: white;
+    animation: scaleUp 0.3s ease-in-out;
+   }
+   
+   @keyframes scaleUp {
+    0% {
+     transform: scale(1);
+    }
+   
+    50% {
+     transform: scale(0.95);
+    }
+   
+    100% {
+     transform: scale(1);
+    }
+   }
+   

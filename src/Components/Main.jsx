@@ -21,10 +21,14 @@ export const Main = () => {
 
 <div className="both-buttons">
         <div className="start">
-            <button className="start-button" >START</button>
+            <button className="start-button " >
+<span >START</span>
+            </button>
         </div>
         <div className="start">
-            <button className="reset-button" >RESET</button>
+            <button className="reset-button" >
+              <span >RESET</span>
+            </button>
         </div>
         </div>
     </div>
