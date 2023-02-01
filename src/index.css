@@ -290,3 +290,42 @@ html{
    }
    
 
+   /* /////////////////////////////////Todo-list////////////////////////////////// */
+
+
+   .task-list > li{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 40rem;
+   }
+
+   .list-btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    
+
+   }
+
+   .task-list{
+    margin-top: 0.5rem;
+   }
+
+
+   .list-edit{
+    margin-top: 0.5rem;
+    margin-right: 1rem;
+    margin-bottom: 0.5rem;
+   }
+   .list-delete{
+    margin-top: 0.5rem;
+    margin-right: 1rem;
+    margin-bottom: 0.5rem;
+   }
+
+   .for-task-bg{
+    background-color:#4d505c3a;
+    padding: 1rem;
+    width: 40rem;
+   }

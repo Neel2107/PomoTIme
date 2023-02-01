@@ -36,7 +36,8 @@ export const Todo = () => {
     <div className="todo">
       <div className="todo-title">
         <p className="todo-title">Focus Time!</p>
-      </div>
+      </div >
+      <div className="for-task-bg">
       <div className="tasks">
         <span>
           <input
@@ -55,17 +56,22 @@ export const Todo = () => {
        
       </div>
 
-      <ul className="task-list">
+      <ul >
+        <div className="task-list">
         {tasks.map((task, index) => (
-          <li  key={index}>
+          <li   key={index}>
             {task}
-            <button onClick={() => editTask(index, prompt("Edit task"))}>
+            <div  className="list-btn">
+            <button className="list-edit" onClick={() => editTask(index, prompt("Edit task"))}>
               Edit
             </button>
-            <button onClick={() => deleteTask(index)}>Delete</button>
+            <button className="list-delete" onClick={() => deleteTask(index)}>Delete</button>
+            </div>
           </li>
         ))}
+        </div>
         </ul>
+        </div>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="#4a4c54"
