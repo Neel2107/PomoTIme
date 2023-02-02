@@ -28,9 +28,11 @@ export const Todo = () => {
   };
 
   const editTask = (index, updatedTask,event) => {
-    if(event.target.value.length === 0){
-      alert("Enter some input!!")
-    }else{
+    // if(event.target.value.length === 0){
+    //   alert
+    // }else{
+
+    if(updatedTask.length  != 0 )
       setTasks(
         tasks.map((task, i) => {
           if (i === index) {
@@ -39,7 +41,10 @@ export const Todo = () => {
           return task;
         })
       );
-    }
+      else{
+        alert("Enter some input!!")
+      }
+    // }
     
   };
 
