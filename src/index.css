@@ -1,4 +1,4 @@
-html{
+html {
     background-color: #363841;
 }
 
@@ -37,7 +37,7 @@ html{
     width: 40rem;
     margin: auto;
     background-color: rgba(255, 255, 255, 0.1);
-    border-radius: 6px;  
+    border-radius: 6px;
 
 }
 
@@ -78,9 +78,10 @@ html{
     margin-bottom: 1.5rem;
     border-color: white;
     margin-right: 1rem;
-    
+
 }
-.reset-button{
+
+.reset-button {
     font-size: 2rem;
     padding: 0rem 2rem;
     border-radius: 0.5rem;
@@ -94,6 +95,7 @@ html{
 .start-button:hover {
     background-color: #2e2e2e;
 }
+
 .reset-button:hover {
     background-color: #2e2e2e;
 }
@@ -115,7 +117,7 @@ html{
 .todo-input {
     font-size: 20px;
     color: white;
-    min-width: 30rem;
+    /* width: 30rem; */
     border: 0;
     background-color: transparent;
     border-bottom: 1px solid grey;
@@ -137,7 +139,7 @@ html{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 40rem;
+
 }
 
 .add-btn {
@@ -145,16 +147,62 @@ html{
     color: white;
     background-color: rgb(49, 49, 49);
     border: 0;
-    padding:0px 10px;
+    padding: 0px 10px;
     border-radius: 10px;
 }
 
-.both-buttons{
+.both-buttons {
     display: flex;
     flex-direction: row;
     justify-content: center;
 
 
+}
+
+
+/* /////////////////////////////////Todo-list////////////////////////////////// */
+
+
+.task-list>li {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.list-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
+
+}
+
+.task-list {
+    margin-top: 0.5rem;
+}
+
+
+.list-edit {
+    margin-top: 0.5rem;
+    margin-right: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.list-delete {
+    margin-top: 0.5rem;
+    margin-right: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.for-task-bg {
+    width: 37rem;
+    margin: auto;
+    background-color: #5f616981;
+    justify-content: space-around;
+    padding: 1rem 1.5rem;
+    border-radius: 6px;
+    /* border: solid red; */
 }
 
 
@@ -176,9 +224,9 @@ html{
     overflow: hidden;
     border: none;
     font-size: 1rem;
-   }
-   
-   .start-button:after {
+}
+
+.start-button:after {
     content: " ";
     width: 0%;
     height: 100%;
@@ -186,15 +234,15 @@ html{
     position: absolute;
     transition: all 0.4s ease-in-out;
     right: 0;
-   }
-   
-   .start-button:hover::after {
+}
+
+.start-button:hover::after {
     right: auto;
     left: 0;
     width: 100%;
-   }
-   
-   .start-button span {
+}
+
+.start-button span {
     text-align: center;
     text-decoration: none;
     width: 100%;
@@ -205,27 +253,27 @@ html{
     letter-spacing: 0.3em;
     z-index: 20;
     transition: all 0.3s ease-in-out;
-   }
-   
-   .start-button:hover span {
+}
+
+.start-button:hover span {
     color: white;
     animation: scaleUp 0.3s ease-in-out;
-   }
-   
-   @keyframes scaleUp {
+}
+
+@keyframes scaleUp {
     0% {
-     transform: scale(1);
+        transform: scale(1);
     }
-   
+
     50% {
-     transform: scale(0.95);
+        transform: scale(0.95);
     }
-   
+
     100% {
-     transform: scale(1);
+        transform: scale(1);
     }
-   }
-   
+}
+
 
 .reset-button {
     position: relative;
@@ -239,9 +287,9 @@ html{
     overflow: hidden;
     border: none;
     font-size: 1rem;
-   }
-   
-   .reset-button:after {
+}
+
+.reset-button:after {
     content: " ";
     width: 0%;
     height: 100%;
@@ -249,15 +297,15 @@ html{
     position: absolute;
     transition: all 0.4s ease-in-out;
     right: 0;
-   }
-   
-   .reset-button:hover::after {
+}
+
+.reset-button:hover::after {
     right: auto;
     left: 0;
     width: 100%;
-   }
-   
-   .reset-button span {
+}
+
+.reset-button span {
     text-align: center;
     text-decoration: none;
     width: 100%;
@@ -268,64 +316,24 @@ html{
     letter-spacing: 0.3em;
     z-index: 20;
     transition: all 0.3s ease-in-out;
-   }
-   
-   .reset-button:hover span {
+}
+
+.reset-button:hover span {
     color: white;
     animation: scaleUp 0.3s ease-in-out;
-   }
-   
-   @keyframes scaleUp {
+}
+
+@keyframes scaleUp {
     0% {
-     transform: scale(1);
+        transform: scale(1);
     }
-   
+
     50% {
-     transform: scale(0.95);
+        transform: scale(0.95);
     }
-   
+
     100% {
-     transform: scale(1);
+        transform: scale(1);
     }
-   }
-   
+}
 
-   /* /////////////////////////////////Todo-list////////////////////////////////// */
-
-
-   .task-list > li{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 40rem;
-   }
-
-   .list-btn{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    
-
-   }
-
-   .task-list{
-    margin-top: 0.5rem;
-   }
-
-
-   .list-edit{
-    margin-top: 0.5rem;
-    margin-right: 1rem;
-    margin-bottom: 0.5rem;
-   }
-   .list-delete{
-    margin-top: 0.5rem;
-    margin-right: 1rem;
-    margin-bottom: 0.5rem;
-   }
-
-   .for-task-bg{
-    background-color:#4d505c3a;
-    padding: 1rem;
-    width: 40rem;
-   }
