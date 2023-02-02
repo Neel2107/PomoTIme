@@ -5,8 +5,6 @@ export const Todo = () => {
   const [tasks, setTasks] = useState([]);
   const [taskInput, setTaskInput] = useState("");
 
-
-
   const handleTaskInput = (event) => {
     
     setTaskInput(event.target.value); 
@@ -29,15 +27,20 @@ export const Todo = () => {
     setTasks(tasks.filter((task, i) => i !== index));
   };
 
-  const editTask = (index, updatedTask) => {
-    setTasks(
-      tasks.map((task, i) => {
-        if (i === index) {
-          return updatedTask;
-        }
-        return task;
-      })
-    );
+  const editTask = (index, updatedTask,event) => {
+    if(event.target.value.length === 0){
+      alert("Enter some input!!")
+    }else{
+      setTasks(
+        tasks.map((task, i) => {
+          if (i === index) {
+            return updatedTask;
+          }
+          return task;
+        })
+      );
+    }
+    
   };
 
 
@@ -69,13 +72,13 @@ export const Todo = () => {
       <ul >
         <div className="task-list">
         {tasks.map((task, index) => (
-          <li  key={index}>
+          <li className="for-center" key={index}>
            <p className="list-width" > {task} </p>
             <div  className="list-btn">
-            <button className="list-edit" onClick={() => editTask(index, prompt("Edit task"))}>
+            <button className="list-edit list-btns" onClick={(event) => editTask(index, prompt("Edit task"),event)}>
               Edit
             </button>
-            <button className="list-delete" onClick={() => deleteTask(index)}>Delete</button>
+            <button className="list-delete list-btns" onClick={() => deleteTask(index)}>Delete</button>
             </div>
           </li>
         ))}
