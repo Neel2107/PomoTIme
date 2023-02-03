@@ -60,7 +60,7 @@ export const Todo = () => {
       </div >
       <div className="for-task-bg">
       <div className="tasks">
-        <span>
+        <span className="for-center-input">
           <input 
             type="text"
             placeholder="Write Your Task Here!!"
