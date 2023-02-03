@@ -1,10 +1,12 @@
 import React from "react";
 import { useState } from "react";
 
+
+
 export const Todo = () => {
   const [tasks, setTasks] = useState([]);
   const [taskInput, setTaskInput] = useState("");
-
+  // const [items, setitems] = useState(getLocalData())
   const handleTaskInput = (event) => {
     
     setTaskInput(event.target.value); 
@@ -50,6 +52,7 @@ export const Todo = () => {
 
 
 
+
   return (
     <div className="todo">
       <div className="todo-title">
@@ -66,7 +69,7 @@ export const Todo = () => {
             className="todo-input"
           />
         </span>
-        <span className="add-btn">
+        <span >
           <button onClick={addTask} className="add-btn">
             Add Task
           </button>
