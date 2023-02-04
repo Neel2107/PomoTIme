@@ -464,8 +464,66 @@ html {
 }
 
 
-.for-center-input{
+/* .for-center-input{
   display: table-cell;
   vertical-align: middle;
   text-align: center;
+} */
+
+
+
+
+@media screen and (max-width:600px) {
+    
+
+    .buttons{
+        font-size: 1rem ;
+    }
+    
+    .main{
+        max-width: 80%;
+    }
+    .main-tags{
+        font-size: 1rem;
+    }
+
+    .timer{
+        font-size: 5rem ;
+    }
+    .both-buttons{
+        max-width: 90%;
+    }
+
+    .start-button{
+        /* max-width:50%; */
+    }
+
+    .for-task-bg{
+        max-width: 80%;
+    }
+
+    .todo-input{
+        margin-right: 0;
+        max-width: 70%;
+        display: flex;
+        align-self: flex-start;
+    }
+    .todo-input::placeholder{
+        font-size: 1rem;
+    }
+    .add-btn{
+        font-size:12px;
+        padding: 0.2rem 1rem;
+        /* max-width: 80%; */
+        /* display: flex;
+        align-self: flex-end; */
+    }
+
+    .list-btns{
+        font-size: 0.8rem;
+    }
+    
+    .list-width{
+        font-size: 1rem;
+    }
 }
