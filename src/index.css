@@ -491,15 +491,20 @@ html {
         font-size: 5rem ;
     }
     .both-buttons{
-        max-width: 90%;
+        max-width: 100%;
     }
 
     .start-button{
-        /* max-width:50%; */
+        font-size: 1rem;
+       padding: 0rem 1rem;
+    }
+    .reset-button{
+        font-size: 1rem;
+        padding: 0rem 1rem;
     }
 
     .for-task-bg{
-        max-width: 80%;
+        max-width: 65%;
     }
 
     .todo-input{
@@ -509,14 +514,15 @@ html {
         align-self: flex-start;
     }
     .todo-input::placeholder{
-        font-size: 1rem;
+        font-size: 0.75rem;
     }
     .add-btn{
         font-size:12px;
-        padding: 0.2rem 1rem;
-        /* max-width: 80%; */
-        /* display: flex;
-        align-self: flex-end; */
+        padding:0.2rem 1rem;
+       /* margin-right: 5rem; */
+    }
+    .for-center-input{
+        max-width: 80%;
     }
 
     .list-btns{
