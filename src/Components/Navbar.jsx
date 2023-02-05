@@ -13,9 +13,9 @@ export const Navbar = () => {
           Settings
         </a>
 
-        <a className="right-buttons buttons" href="#">
+        {/* <a className="right-buttons buttons" href="#">
           Login
-        </a>
+        </a> */}
       </div>
     </div>
   );
