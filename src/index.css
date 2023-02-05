@@ -8,6 +8,10 @@ html {
     text-decoration: none;
     font-family: 'Inter', sans-serif;
 }
+body{
+    /* background-image: url("./assets/bg.png")  ; */
+    /* background-position: center ; */
+}
 
 .navbar {
     color: white;
