@@ -471,6 +471,10 @@ html {
 } */
 
 
+.bg-curve{
+position: ;
+}
+
 
 
 @media screen and (max-width:600px) {
@@ -495,12 +499,13 @@ html {
     }
 
     .start-button{
-        font-size: 1rem;
-       padding: 0rem 1rem;
+        font-size: 0.75rem;
+       padding: 0rem 0.75rem;
     }
+    
     .reset-button{
-        font-size: 1rem;
-        padding: 0rem 1rem;
+        font-size: 0.75rem;
+        padding: 0rem 0.75rem;
     }
 
     .for-task-bg{
@@ -517,8 +522,9 @@ html {
         font-size: 0.75rem;
     }
     .add-btn{
-        font-size:12px;
-        padding:0.2rem 1rem;
+        width: 3rem;
+        font-size:0.5rem;
+        padding:0.3rem 0.2rem;
        /* margin-right: 5rem; */
     }
     .for-center-input{
@@ -526,10 +532,12 @@ html {
     }
 
     .list-btns{
-        font-size: 0.8rem;
+        width: 2.5rem;
+        font-size: 0.5rem;
+        padding: 0.3rem 0.2rem;
     }
     
     .list-width{
-        font-size: 1rem;
+        font-size: 0.75rem;
     }
 }
