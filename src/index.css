@@ -84,7 +84,7 @@ body{
 }
 
 .todo-input {
-    font-size: 20px;
+    font-size: 15px;
     color: white;
     /* width: 30rem; */
     border: 0;
@@ -101,7 +101,7 @@ body{
 .todo-input::placeholder {
     color: white;
     text-align: left;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .tasks {
@@ -440,16 +440,9 @@ body{
 }
 
 
-/* .for-center-input{
-  display: table-cell;
-  vertical-align: middle;
-  text-align: center;
-} */
 
 
-.bg-curve{
-position: ;
-}
+
 
 
 
@@ -490,21 +483,22 @@ position: ;
 
     .todo-input{
         margin-right: 0;
-        max-width: 70%;
+        max-width: 100%;
         display: flex;
         align-self: flex-start;
     }
     .todo-input::placeholder{
-        font-size: 0.75rem;
+        font-size: 0.65rem;
     }
     .add-btn{
-        width: 3rem;
+        width: 4rem;
         font-size:0.5rem;
         padding:0.3rem 0.2rem;
-       /* margin-right: 5rem; */
+       margin-right: 1rem;
     }
     .for-center-input{
-        max-width: 80%;
+        max-width: 50%;
+        margin-right: 0;
     }
 
     .list-btns{
