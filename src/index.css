@@ -454,7 +454,7 @@ body{
     }
     
     .main{
-        max-width: 80%;
+        max-width: 90%;
     }
     .main-tags{
         font-size: 0.75rem;
@@ -478,7 +478,7 @@ body{
     }
 
     .for-task-bg{
-        max-width: 65%;
+        max-width: 77%;
     }
 
     .todo-input{
