@@ -69,38 +69,6 @@ body{
     justify-content: center;
 }
 
-.start-button {
-
-    font-size: 2rem;
-    padding: 0rem 2rem;
-    border-radius: 0.5rem;
-    color: white;
-    background-color: #4d505c;
-    margin-bottom: 1.5rem;
-    border-color: white;
-    margin-right: 1rem;
-
-}
-
-.reset-button {
-    font-size: 2rem;
-    padding: 0rem 2rem;
-    border-radius: 0.5rem;
-    color: white;
-    background-color: #4d505c;
-    margin-bottom: 1.5rem;
-    border-color: white;
-}
-
-
-.start-button:hover {
-    background-color: #2e2e2e;
-}
-
-.reset-button:hover {
-    background-color: #2e2e2e;
-}
-
 .todo {
     color: white;
     display: flex;
@@ -245,6 +213,8 @@ body{
 
 
 .start-button {
+    margin-bottom: 1.5rem;
+    margin-right: 1rem;
     position: relative;
     display: flex;
     justify-content: center;
@@ -309,6 +279,8 @@ body{
 
 
 .reset-button {
+    margin-bottom: 1.5rem;
+
     position: relative;
     display: flex;
     justify-content: center;
@@ -496,7 +468,7 @@ position: ;
     }
 
     .timer{
-        font-size: 5rem ;
+        font-size: 4rem ;
     }
     .both-buttons{
         max-width: 100%;
