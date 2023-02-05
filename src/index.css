@@ -457,7 +457,7 @@ body{
         max-width: 90%;
     }
     .main-tags{
-        font-size: 0.75rem;
+        font-size: 0.9rem;
     }
 
     .timer{
@@ -491,11 +491,10 @@ body{
         font-size: 0.65rem;
     }
     .add-btn{
-        width: 4rem;
+        width: 5.5rem;
         font-size:0.5rem;
         padding:0.3rem 0.2rem;
-       margin-right: 1rem;
-    }
+        }
     .for-center-input{
         max-width: 50%;
         margin-right: 0;
