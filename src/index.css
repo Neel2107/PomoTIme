@@ -206,7 +206,9 @@ body{
 }
 
 
-
+.for-span-input{
+    align-items: center;
+}
 /* ////////////////////////// Changes in Button CSS ////////////////////////////////////// */
 
 
