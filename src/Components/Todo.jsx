@@ -7,7 +7,6 @@ export const Todo = () => {
   
   const [tasks, setTasks] = useState([]);
   const [taskInput, setTaskInput] = useState("");
-  // const [items, setitems] = useState(getLocalData())
   const handleTaskInput = (event) => {
     
     setTaskInput(event.target.value); 
@@ -31,9 +30,6 @@ export const Todo = () => {
   };
 
   const editTask = (index, updatedTask,event) => {
-    // if(event.target.value.length === 0){
-    //   alert
-    // }else{
 
     if(updatedTask.length  != 0 )
       setTasks(
@@ -47,7 +43,6 @@ export const Todo = () => {
       else{
         alert("Enter some input!!")
       }
-    // }
     
   };
 
@@ -94,13 +89,13 @@ export const Todo = () => {
         </div>
         </ul>
         </div>
-      {/* <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="#4a4c54"
           fill-opacity="1"
           d="M0,96L40,133.3C80,171,160,245,240,250.7C320,256,400,192,480,144C560,96,640,64,720,90.7C800,117,880,203,960,208C1040,213,1120,139,1200,96C1280,53,1360,43,1400,37.3L1440,32L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"
         ></path>
-      </svg> */}
+      </svg>
     </div>
   );
 };
