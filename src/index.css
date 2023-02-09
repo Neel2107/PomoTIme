@@ -518,3 +518,8 @@ body{
 
 
 
+.bg-svg{
+    position: absolute;
+    bottom: 0;
+
+}
