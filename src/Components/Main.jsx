@@ -2,11 +2,6 @@ import { StrictMode, useEffect, useReducer } from "react";
 import React, { useState } from "react";
 
 
-
-
-
-
-
 export const Main = () => {
 
 
@@ -38,6 +33,7 @@ export const Main = () => {
   }, [isActive, minutes, seconds]);
 
   const startTimer = () => {
+    
     setIsActive(true);
   };
 

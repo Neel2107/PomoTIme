@@ -516,10 +516,11 @@ body{
 
 
 
-
+/* ///////////////////////////////////////// to fix position of svg at bottom /////////////// */
 
 .bg-svg{
     position: absolute;
     bottom: 0;
+    opacity: 80%;
 
 }
